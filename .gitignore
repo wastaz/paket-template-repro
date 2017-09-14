@@ -1,0 +1,48 @@
+# vs
+.vs/
+[Aa]pp_[Dd]ata/
+[Bb]in/
+[D]ebug/
+[Aa]rtifacts/
+[Oo]bj/
+[Tt]est[Rr]esult/
+[Tt]emp/
+*.user
+*.vspscc
+*.vssscc
+*.suo
+*.cache
+
+#nunit
+TestResult.xml
+
+# deploy
+tools/**/*
+!tools/packages.config
+build/
+src/projects/*.Deploy/
+.fake
+octobuild
+paket-files
+
+# misc
+*~
+*.swp
+*.sdf
+*.orig
+*.pfx
+
+# nuget
+[Pp]ackages/
+
+# resharper
+_ReSharper.*
+*.resharper*
+*.[Rr]e[Ss]harper.user
+*.DotSettings.user
+
+# rider
+.idea
+
+#windows stuff
+Thumbs.db

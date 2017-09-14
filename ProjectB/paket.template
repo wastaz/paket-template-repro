@@ -1,0 +1,6 @@
+type project
+authors Test
+description 
+    Test
+requireLicenseAcceptance false
+tags test
